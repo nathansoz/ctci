@@ -3,4 +3,4 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void rotate_image(int **image, int width, int height);
+void zero_matrix(int **matrix, int width, int height);
