@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.2)
-project(helper_libs)
+project(ctci-c-1-5)
 
 
 
@@ -12,3 +12,6 @@ include_directories("${PROJECT_BINARY_DIR}")
 include_directories("${PROJECT_INCLUDE_DIR}")
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
+add_executable(main-${PROJECT_NAME} main.c)
+target_link_libraries(${PROJECT_NAME} helper_libs)
+target_link_libraries(main-${PROJECT_NAME} ${PROJECT_NAME})
