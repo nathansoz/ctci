@@ -1,6 +1,6 @@
 // Nathan Sosnovske
 // Cracking the Coding Interview (5th ed)
-// Question 1-1
+// Question 1-7
 //
 // Algorithm that writes zeros to all rows and cols if an element in those rows/cols has a 0
 

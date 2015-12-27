@@ -11,8 +11,8 @@
 int main()
 {
     char string[] = "Hello, computer!";
+    printf("%s\n", string);
     revstr(string);
-    
     printf("%s\n", string);
     printf("\n");
     
